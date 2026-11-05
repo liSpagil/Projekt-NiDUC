@@ -89,18 +89,18 @@
     <comp lib="0" loc="(2480,1130)" name="Splitter">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="0" loc="(2490,1130)" name="Splitter"/>
-    <comp lib="0" loc="(2490,1210)" name="Pin">
+    <comp lib="0" loc="(2490,1060)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="mod_W_dolny"/>
+      <a name="label" val="mod_Z_dolne"/>
       <a name="type" val="output"/>
       <a name="width" val="2"/>
     </comp>
+    <comp lib="0" loc="(2490,1130)" name="Splitter"/>
     <comp lib="0" loc="(2500,190)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
-      <a name="label" val="SUMA_W"/>
+      <a name="label" val="SUMA_Z"/>
       <a name="type" val="output"/>
       <a name="width" val="5"/>
     </comp>
@@ -129,10 +129,10 @@
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(3100,1070)" name="Splitter"/>
-    <comp lib="0" loc="(3110,1210)" name="Pin">
+    <comp lib="0" loc="(3120,1130)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="mod_W_gorny"/>
+      <a name="label" val="mod_Z_gorne"/>
       <a name="type" val="output"/>
       <a name="width" val="2"/>
     </comp>
@@ -151,7 +151,7 @@
     <comp lib="0" loc="(990,1030)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="SUMA_mod_W"/>
+      <a name="label" val="SUMA_mod_Z"/>
       <a name="type" val="output"/>
       <a name="width" val="3"/>
     </comp>
@@ -290,7 +290,7 @@
     <comp lib="9" loc="(2275,825)" name="Text">
       <a name="text" val="cout"/>
     </comp>
-    <comp lib="9" loc="(2425,1070)" name="Text">
+    <comp lib="9" loc="(2541,1024)" name="Text">
       <a name="text" val="Wynik dolnej sciezki"/>
     </comp>
     <comp lib="9" loc="(2620,1100)" name="Text">
@@ -301,13 +301,13 @@
       <a name="font" val="SansSerif bold 10"/>
       <a name="text" val="MSB"/>
     </comp>
-    <comp lib="9" loc="(2675,1103)" name="Text">
+    <comp lib="9" loc="(2675,1100)" name="Text">
       <a name="text" val="|Z|"/>
     </comp>
-    <comp lib="9" loc="(2752,1467)" name="Text">
+    <comp lib="9" loc="(2750,1465)" name="Text">
       <a name="text" val="|Z|"/>
     </comp>
-    <comp lib="9" loc="(2844,1469)" name="Text">
+    <comp lib="9" loc="(2840,1465)" name="Text">
       <a name="text" val="Z"/>
     </comp>
     <comp lib="9" loc="(2875,1080)" name="Text">
@@ -324,7 +324,7 @@
     <comp lib="9" loc="(3020,180)" name="Text">
       <a name="text" val="GENERATOR RESZTY MOD 3"/>
     </comp>
-    <comp lib="9" loc="(3105,1015)" name="Text">
+    <comp lib="9" loc="(3124,1021)" name="Text">
       <a name="text" val="Wynik gornej sciezki"/>
     </comp>
     <comp lib="9" loc="(385,230)" name="Text">
@@ -511,7 +511,7 @@
     <wire from="(2480,190)" to="(2480,390)"/>
     <wire from="(2480,190)" to="(2500,190)"/>
     <wire from="(2480,390)" to="(2570,390)"/>
-    <wire from="(2490,1130)" to="(2490,1210)"/>
+    <wire from="(2490,1060)" to="(2490,1130)"/>
     <wire from="(2510,1110)" to="(2780,1110)"/>
     <wire from="(2510,1120)" to="(2750,1120)"/>
     <wire from="(2590,340)" to="(2750,340)"/>
@@ -612,8 +612,8 @@
     <wire from="(3090,1080)" to="(3100,1080)"/>
     <wire from="(310,920)" to="(320,920)"/>
     <wire from="(3100,1070)" to="(3100,1080)"/>
-    <wire from="(3100,1080)" to="(3100,1210)"/>
-    <wire from="(3100,1210)" to="(3110,1210)"/>
+    <wire from="(3100,1080)" to="(3100,1130)"/>
+    <wire from="(3100,1130)" to="(3120,1130)"/>
     <wire from="(3120,1050)" to="(4620,1050)"/>
     <wire from="(3120,1060)" to="(4600,1060)"/>
     <wire from="(3190,410)" to="(3220,410)"/>
